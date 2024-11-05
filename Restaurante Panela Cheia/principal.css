@@ -1,0 +1,124 @@
+.logo{
+    width: 75%;
+
+}
+body{
+    background-color: rgb(31, 22, 67);
+    
+}
+
+.divLogo{
+text-align:left;
+position:absolute;
+right: 5%;
+    
+}
+
+header{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background-color: rgb(31, 22, 67);
+    padding: 10px;
+}
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #ffffff00;
+    padding: 20px;
+    text-align:right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #452d6b;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 36px;
+    color: #452d6b;
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+    background-color: #00000000;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Estilos gerais */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: rgb(0, 167, 150);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #000000;
+  }
+  
+  .button:hover {background-color: #fffcfc}
+  
+  .button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+footer{
+    background-color: rgb(22,29,67);
+    color:rgb(2, 186, 219);
+    text-align:center;
+    position:relative;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1180px;
+    margin:0 auto;  
+    gap: 20px;
+}
+.caixa{
+   
+    width: 30%;
+    margin-left: 20px;
+    padding: 20px;
+    font-family:fantasy;
+    color:  #ffffff;
+    border-color: #00aaa4;
+    border-style: solid;
+    
+}
+.imageminicial{
+    align-items: center;
+    display:flex;
+    width: 80px;
+}
+
